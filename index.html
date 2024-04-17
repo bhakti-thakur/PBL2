@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Helpline</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+        <!--Navbar-->
+        <header class="d-flex flex-wrap justify-content-center py-5 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center justify-content-start mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="./location.png" alt="logo" height="45rem" class="logo">
+            <span class="fs-1">Student Helpline</span>
+            </a>
+            <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link nav active"  aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#food" class="nav-link nav"  >Food</a></li>
+            <li class="nav-item"><a href="#clothes" class="nav-link nav" >Clothes</a></li>
+            <li class="nav-item"><a href="#entertainment" class="nav-link nav" >Entertainment</a></li>
+            <li class="nav-item"><a href="#footer" class="nav-link nav">About Us</a></li>
+            </ul>
+        </header>
+        <!--/Navbar-->
+
+        <div class="b-example-divider"></div>
+
+        <!--Cards-->
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./MESWCOE.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="250" height="200" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Got near-by places to search?</h1>
+                <p class="lead"><b>GOTCHA!</b> <br> We are  Students of Modern Education Society's College of Engineering. While we are here spending our best days at college, we realised a lack of platform that we could refer for quick search to find things that we need in our daily lives. <br> Be it cafe's for a quick snack or restaurant for a good meal, be it going street shopping or boujee shopping, be it studying or clubbing, <br><b> WE'VE GOTCHU COVERED! </b></p>
+              </div>
+            </div>
+          </div>
+          <div class="b-example-divider"></div>
+
+          <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom"></h2>
+        
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./restaurant.jpg')">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Food</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="d-flex align-items-center me-3">
+                        <a href="food.html" class="card-link"><small><b>Learn more</b></small></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                          </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./mall.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clothing</h3>
+                    <ul class="d-flex list-unstyled mt-auto cards">
+                        <li class="d-flex align-items-center me-3">
+                            <a href="clothing.html" class="card-link"><small><b>Learn more</b></small></a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                              </svg>
+                          </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./pub.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Entertainment</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                        <li class="d-flex align-items-center me-3">
+                            <a href="entertainment.html" class="card-link"><small><b>Learn more</b></small></a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                              </svg>
+                          </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!--/cards-->
+
+        <div class="b-example-divider"></div>
+
+        <!--Search bar-->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-1 col-md-2 col-lg-3"></div>
+            <div class=" col-sm-10 col-md-8 col-lg-6">
+              
+                <div class="search-bar">
+                  <img src="./search.png" alt="search" height="47rem">
+                  <form action="#">
+                    <input type="text" placeholder="Search.." name="search" list="search-suggestions" >
+                    <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+                  </form>
+                  <datalist id="search-suggestions">
+                    <option value="pheonix">
+                    <option value="camp">
+                    <option value="osho">
+                    <option value="madhuban">
+                  </datalist>
+                </div>
+                
+            </div>
+            <div class="col-sm-1 col-md-2 col-lg-3"></div>
+          </div>
+        </div>
+
+        <!--/Search bar-->
+
+        <div class="b-example-divider"></div>
+
+        <!--Food-->
+
+        <div class="container px-4 py-5" id="food">
+            <h2 class="pb-2 border-bottom">FOOD</h2>
+        
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+              <div class="col d-flex flex-column align-items-start gap-2">
+                <h2 class="fw-bold text-body-emphasis">Cafes & Restaurants</h2>
+                <p class="text-body-secondary">A few well known and under-rated gems</p>
+                <a href="food.html">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg> </a>
+              </div>
+        
+              <div class="col">
+                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://magicpin.in/Pune/Camp-Area/Restaurant/Blue-Nile/store/82844/"> <img src="https://www.mappls.com/place/76748A_1665574124104_0.jpeg" alt="Blue Nile" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://magicpin.in/Pune/Camp-Area/Restaurant/Blue-Nile/store/82844/" class="blacklink" id="bluenile" >Blue Nile</a> </h4>
+                    <p class="text-body-secondary">Blue Nile is a fine dining outlet that offers a unique dining experience. </p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://www.tripadvisor.in/Restaurant_Review-g297654-d1077784-Reviews-Madhuban-Pune_Pune_District_Maharashtra.html"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/c6/3c/2a/madhuban.jpg" alt="Madhuban" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://www.tripadvisor.in/Restaurant_Review-g297654-d1077784-Reviews-Madhuban-Pune_Pune_District_Maharashtra.html" class="blacklink" id="madhuban" > Madhuban </a> </h4>
+                    <p class="text-body-secondary" >Madhuban is a fine dining outlet that offers a unique dining experience. </p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://yappe.in/maharashtra/pune/cafe-fikar-not/2073768"> <img src="https://files.yappe.in/place/full/cafe-fikar-not-10596317.webp" alt="Fikar not" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://yappe.in/maharashtra/pune/cafe-fikar-not/2073768" class="blacklink" id="fikarnot"> Cafe Fikar Not </a> </h4>
+                    <p class="text-body-secondary">Cafe Fikar Not is a fine aesthetic outlet that offers a unique dining experience. </p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://restaurant-guru.in/Cafe-Durga-Pune-75#google_vignette"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG_qcHvhJP0SbAYSTO_WhZFdnAThouze73jg&s" alt="Cream Craver" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://restaurant-guru.in/Cafe-Durga-Pune-75#google_vignette" class="blacklink" id="durga"> Cafe Durga </a> </h4>
+                    <p class="text-body-secondary">Cafe Durga is a fine aesthetic outlet that offers a unique dining experience. </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <!--/Food-->
+
+        <div class="b-example-divider"></div>
+
+        <!--Clothes-->
+        <div class="container px-4 py-5" id="clothes">
+            <h2 class="pb-2 border-bottom">CLOTHING</h2>
+        
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+              <div class="col d-flex flex-column align-items-start gap-2">
+                <h2 class="fw-bold text-body-emphasis">Malls & Shopping streets</h2>
+                <p class="text-body-secondary">Maintain your fashion-rizz with: </p>
+                <a href="clothing.html">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg> </a>
+              </div>
+        
+              <div class="col blacklink">
+                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="./pheonix.jpg"> <img src="https://dtbtob4osa700.cloudfront.net/MallImages/26022020044610850_mallabt.jpg" alt="phoenix market city" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis" > <a href="https://www.phoenixmarketcity.com/pune" class="blacklink " id="pheonix"> Phoenix Market City </a> </h4>
+                    <p class="text-body-secondary"> Pheonix Market City </p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://www.sgsmall.com/brands"> <img src="https://files.lbb.in/media/2020/01/5e15ce348f99e3741d7362d6_1578487348316.jpg" alt="SGS Mall" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://www.sgsmall.com/brands" class="blacklink" id="sgs"> SGS Mall </a> </h4>
+                    <p class="text-body-secondary"> SGS Mall </p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://www.justdial.com/Pune/Fashion-Street-Pune-Camp/020PXX20-XX20-220125045932-U8Z1_BZDET"> <img src="https://storage.googleapis.com/tc46storage/2021/09/f6190819-hero.jpg" alt="Camp" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://www.justdial.com/Pune/Fashion-Street-Pune-Camp/020PXX20-XX20-220125045932-U8Z1_BZDET" class="blacklink" id="camp"> Camp Fashion Street </a> </h4>
+                    <p class="text-body-secondary">Camp Fashion Street </p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://www.google.com/search?q=fc+road+shopping+street+address&sca_esv=d7ed808a3c5b3242&sca_upv=1&biw=1366&bih=641&sxsrf=ACQVn0-xOyNqspMPOM9-o0XTg6GK4--_PQ%3A1712148777"> <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2018/03/Fashion-Street-Mumbai.jpg?tr=w-400" alt="Camp" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://www.google.com/search?q=fc+road+shopping+street+address&sca_esv=d7ed808a3c5b3242&sca_upv=1&biw=1366&bih=641&sxsrf=ACQVn0-xOyNqspMPOM9-o0XTg6GK4--_PQ%3A1712148777" class="blacklink" id="fc"> FC Road </a> </h4>
+                    <p class="text-body-secondary"> Fergusson College Road Fashion Street </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--/clothes-->
+
+        <div class="b-example-divider"></div>
+
+        <!--Entertainment-->
+
+        <div class="container px-4 py-5" id="entertainment">
+            <h2 class="pb-2 border-bottom">ENTERTAINMENT</h2>
+        
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+              <div class="col d-flex flex-column align-items-start gap-2">
+                <h2 class="fw-bold text-body-emphasis"> Hangout spots & relaxation</h2>
+                <p class="text-body-secondary">Re-amp your burn outs with these chill places</p>
+                <a href="entertainment.html">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg> </a>
+              </div>
+        
+              <div class="col blacklink">
+                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://www.dagdushethganpati.com/"> <img src="https://lh3.googleusercontent.com/p/AF1QipOA4JwSAb01y5nc80l0Bp8171RBLVisOjVt59QD=s680-w680-h510" alt="Cream Craver" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://www.dagdushethganpati.com/" class="blacklink" id="dagdusheth"> Dagdusheth Ganpati </a> </h4>
+                    <p class="text-body-secondary">Ganapati Bappa Morya </p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://www.google.com.pk/travel/hotels/entity/ChoIyLLQk8Wuh77VARoNL2cvMTFjNzA4cTU0bBAE?utm_campaign=sharing&utm_medium=link&utm_source=htls&ved=0CAAQ5JsGahcKEwiwzJfqj6aFAxUAAAAAHQAAAAAQAw&ts=CAEaBAoCGgAqBAoAGgA"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShG4PNLXEhtjagJv37-vIEJl4OWWyBuxNUBM7uCIvfog&s" alt="Osho Garden" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://www.google.com.pk/travel/hotels/entity/ChoIyLLQk8Wuh77VARoNL2cvMTFjNzA4cTU0bBAE?utm_campaign=sharing&utm_medium=link&utm_source=htls&ved=0CAAQ5JsGahcKEwiwzJfqj6aFAxUAAAAAHQAAAAAQAw&ts=CAEaBAoCGgAqBAoAGgA" class="blacklink" id="osho"> Osho Garden </a> </h4>
+                    <p class="text-body-secondary">It speaks for itself. </p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://gamepalacio.com/"> <img src="https://gamepalacio.com/wp-content/uploads/2024/02/IMG_8464.jpg" alt="Game Palacio" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://gamepalacio.com/" class="blacklink" id="gamepalacio"> Game Palacio </a> </h4>
+                    <p class="text-body-secondary"> Known for its Elite Gaming Experience </p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <a href="https://skyjumpertrampolinepark.com/pune/"> <img src="https://beyondenoughag8.s3.ap-south-1.amazonaws.com/dynamic/skyjumper-about-01.pngbeimg0ln61q79b.png" alt="Skyjumper Trampoline Park" width="60rem" height="60rem" class="small-img"> </a>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis"> <a href="https://skyjumpertrampolinepark.com/pune/" class="blacklink " id="skyjumper"> Skyjumper Trampoline Park </a> </h4>
+                    <p class="text-body-secondary">Trampoline Parks are funnn </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!--/Entertainment-->
+
+        <div class="b-example-divider"></div>
+
+        <!--Footer-->
+
+          <div class="container" id="footer">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+              <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                  <img src="./location.png" alt="" width="40">
+                </a>
+                <p class="text-body-secondary">© PBL-2: Group no. 23</p>
+              </div>
+          
+              <div class="col mb-3">
+          
+              </div>
+
+              <div class="col mb-3">
+
+              </div>
+          
+              <div class="col mb-3">
+                <h5>Reach Out to Team</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="https://x.com/ruinedcodes101?t=TyH7avMEfMycSKJJMveaEQ&s=08" class="nav-link p-0 text-body-secondary"><img src="./twitter.png" alt="twitter" height="25rem"></a></li>
+                  <li class="nav-item mb-2"><a href="https://www.linkedin.com/in/bhakti-thakur-3b7253299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="nav-link p-0 text-body-secondary"><img src="./linkedin.png" alt="linkedin" height="30rem"></a></li>
+                  <li class="nav-item mb-2"><a href="https://github.com/bhakti-thakur" class="nav-link p-0 text-body-secondary"><img src="./github.png" alt="github" height="30rem"></a></li>
+                </ul>
+              </div>
+          
+              <div class="col mb-3">
+                <h5>Resources Used</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="https://html.com/html5/" class=" blacklink nav-link p-0 text-body-secondary ">HTML</a></li>
+                  <li class="nav-item mb-2"><a href="https://en.wikipedia.org/wiki/CSS" class=" blacklink nav-link p-0 text-body-secondary">CSS</a></li>
+                  <li class="nav-item mb-2"><a href="https://getbootstrap.com/" class=" blacklink nav-link p-0 text-body-secondary">Bootstrap</a></li>
+                  <li class="nav-item mb-2"><a href="https://www.javascript.com/" class=" blacklink nav-link p-0 text-body-secondary">JavaScript</a></li>
+                  <li class="nav-item mb-2"><a href="https://github.com/about" class=" blacklink nav-link p-0 text-body-secondary">GitHub</a></li>
+                </ul>
+              </div>
+          
+            </footer>
+          </div>
+        <!--/Footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

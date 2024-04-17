@@ -1,0 +1,33 @@
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.heading{
+    border-bottom: 1px solid rgb(223, 215, 215);
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.blacklink{
+    /*text-decoration: none;*/
+    color: black;
+  }
+  
+.content{
+    text-align: center;
+
+}
+
+.for-space{
+    padding: 3rem;
+}
